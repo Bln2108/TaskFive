@@ -8,7 +8,7 @@ public class SQRServiceTest {
     @ParameterizedTest
     @CsvSource({
             "5,100,1",
-            "1,10,0",
+            "1,10,1",
             "500,1000,9"
     })
     public void sguareBordersTest(int border1, int border2, int expected) {
